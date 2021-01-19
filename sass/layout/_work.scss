@@ -1,0 +1,41 @@
+.work{
+    display: none;
+}
+
+@media screen and (min-width: 1200px){
+    .work{
+        display: flex;
+        padding-bottom: 94px;
+    
+        &-list{
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        &-item-overlay{
+            position: relative;
+        }
+    }
+    
+    .work-item .overlay{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        width: 370px;
+        height: 70px;
+    
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.143;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+        background-color: rgba(47, 48, 58, 0.8);
+    }
+}
