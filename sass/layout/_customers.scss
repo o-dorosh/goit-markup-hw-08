@@ -4,18 +4,13 @@
 }
 
 .customers-list-item{
-    margin-bottom: 30px;
+    display: flex;
 
-    &:not(:nth-child(2n)){
-        margin-right: 30px;
-    }
+
 }
 
 .customers-list-link{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 210px;
+    width: 226px;
     height: 90px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -36,6 +31,10 @@
     .customers-list-link:focus &{
         fill: var(--accent-color);
     }
+}
+
+@media screen and (min-width: 768px){
+    
 }
 
 /*

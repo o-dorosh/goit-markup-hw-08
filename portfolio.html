@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/portfolio.min.css">
 </head>
 <body>
+    <!--
     <header class="header ">
         <div class="container">
             <nav class="navigation">
@@ -47,6 +48,7 @@
             </address>
         </div>    
     </header>
+-->
     <main class="main">
         <!--Portfolio --> 
         <section class="portfolio section">
@@ -78,7 +80,27 @@
                         <a class="portfolio-item-link" href="#">
                             <article class="portfolio-item-card">
                                 <div class="portfolio-item-card-thumb">
-                                    <img src="./images/portfolio/project1.jpg" alt="пример веб-сайта" width="370" height="294">
+                                    <picture class="portfolio-picture">
+                                        <source
+                                            srcset="./images/portfolio/project1-desktop.webp 1x, ./images/portfolio/project1-desktop@2x.webp 2x"
+                                            media="(min-width: 1200px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project1-desktop.jpg 1x, ./images/portfolio/project1-desktop@2x.jpg 2x"
+                                            media="(min-width: 1200px)">
+                                        <source
+                                            srcset="./images/portfolio/project1-tablet.webp 1x, ./images/portfolio/project1-tablet@2x.webp 2x"
+                                            media="(min-width: 768px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project1-tablet.jpg 1x, ./images/portfolio/project1-tablet@2x.jpg 2x"
+                                            media="(min-width: 768px)">
+                                        <source
+                                            srcset="./images/portfolio/project1-mobile.webp 1x, ./images/portfolio/project1-mobile@2x.webp 2x"
+                                            media="(min-width: 480px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project1-mobile.jpg 1x, ./images/portfolio/project1-mobile@2x.jpg 2x"
+                                            media="(min-width: 480px)">
+                                    <img src="./images/portfolio/project1-mobile.jpg" alt="пример веб-сайта">
+                                    </picture>
                                     <p class="overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов</p>
                                 </div>
                                 <div class="portfolio-item-wrapper"> 
@@ -93,7 +115,27 @@
                         <a class="portfolio-item-link" href="#">
                             <article class="portfolio-item-card">
                                 <div class="portfolio-item-card-thumb">
-                                    <img src="./images/portfolio/project2.jpg" alt="пример веб-сайта" width="370" height="294">
+                                    <picture class="portfolio-picture">
+                                        <source
+                                            srcset="./images/portfolio/project2-desktop.webp 1x, ./images/portfolio/project2-desktop@2x.webp 2x"
+                                            media="(min-width: 1200px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project2-desktop.jpg 1x, ./images/portfolio/project2-desktop@2x.jpg 2x"
+                                            media="(min-width: 1200px)">
+                                        <source
+                                            srcset="./images/portfolio/project2-tablet.webp 1x, ./images/portfolio/project2-tablet@2x.webp 2x"
+                                            media="(min-width: 768px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project2-tablet.jpg 1x, ./images/portfolio/project2-tablet@2x.jpg 2x"
+                                            media="(min-width: 768px)">
+                                        <source
+                                            srcset="./images/portfolio/project2-mobile.webp 1x, ./images/portfolio/project2-mobile@2x.webp 2x"
+                                            media="(min-width: 480px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project2-mobile.jpg 1x, ./images/portfolio/project2-mobile@2x.jpg 2x"
+                                            media="(min-width: 480px)">
+                                    <img src="./images/portfolio/project2-mobile.jpg" alt="пример веб-сайта">
+                                    </picture>
                                     <p class="overlay">Постер New Orlean vs Golden Star</p>
                                 </div>
                                 <div class="portfolio-item-wrapper"> 
@@ -108,7 +150,27 @@
                         <a class="portfolio-item-link" href="#">
                             <article class="portfolio-item-card">
                                 <div class="portfolio-item-card-thumb">
-                                    <img src="./images/portfolio/project3.jpg" alt="пример веб-сайта" width="370" height="294">
+                                    <picture class="portfolio-picture">
+                                        <source
+                                            srcset="./images/portfolio/project3-desktop.webp 1x, ./images/portfolio/project3-desktop@2x.webp 2x"
+                                            media="(min-width: 1200px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project3-desktop.jpg 1x, ./images/portfolio/project3-desktop@2x.jpg 2x"
+                                            media="(min-width: 1200px)">
+                                        <source
+                                            srcset="./images/portfolio/project3-tablet.webp 1x, ./images/portfolio/project3-tablet@2x.webp 2x"
+                                            media="(min-width: 768px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project3-tablet.jpg 1x, ./images/portfolio/project3-tablet@2x.jpg 2x"
+                                            media="(min-width: 768px)">
+                                        <source
+                                            srcset="./images/portfolio/project3-mobile.webp 1x, ./images/portfolio/project3-mobile@2x.webp 2x"
+                                            media="(min-width: 480px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project3-mobile.jpg 1x, ./images/portfolio/project3-mobile@2x.jpg 2x"
+                                            media="(min-width: 480px)">
+                                    <img src="./images/portfolio/project3-mobile.jpg" alt="пример веб-сайта">
+                                    </picture>
                                     <p class="overlay">Ресторан Seafood</p>
                                 </div>
                                 <div class="portfolio-item-wrapper"> 
@@ -123,7 +185,27 @@
                         <a class="portfolio-item-link" href="#">
                             <article class="portfolio-item-card">
                                 <div class="portfolio-item-card-thumb">
-                                    <img src="./images/portfolio/project4.jpg" alt="пример веб-сайта" width="370" height="294">
+                                    <picture class="portfolio-picture">
+                                        <source
+                                            srcset="./images/portfolio/project4-desktop.webp 1x, ./images/portfolio/project4-desktop@2x.webp 2x"
+                                            media="(min-width: 1200px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project4-desktop.jpg 1x, ./images/portfolio/project4-desktop@2x.jpg 2x"
+                                            media="(min-width: 1200px)">
+                                        <source
+                                            srcset="./images/portfolio/project4-tablet.webp 1x, ./images/portfolio/project4-tablet@2x.webp 2x"
+                                            media="(min-width: 768px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project4-tablet.jpg 1x, ./images/portfolio/project4-tablet@2x.jpg 2x"
+                                            media="(min-width: 768px)">
+                                        <source
+                                            srcset="./images/portfolio/project4-mobile.webp 1x, ./images/portfolio/project4-mobile@2x.webp 2x"
+                                            media="(min-width: 480px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project4-mobile.jpg 1x, ./images/portfolio/project4-mobile@2x.jpg 2x"
+                                            media="(min-width: 480px)">
+                                    <img src="./images/portfolio/project4-mobile.jpg" alt="пример веб-сайта">
+                                    </picture>
                                     <p class="overlay">Проект Prime</p>
                                 </div>
                                 <div class="portfolio-item-wrapper"> 
@@ -138,7 +220,27 @@
                         <a class="portfolio-item-link" href="#">
                             <article class="portfolio-item-card">
                                 <div class="portfolio-item-card-thumb">
-                                    <img src="./images/portfolio/project5.jpg" alt="пример веб-сайта" width="370" height="294">
+                                    <picture class="portfolio-picture">
+                                        <source
+                                            srcset="./images/portfolio/project5-desktop.webp 1x, ./images/portfolio/project5-desktop@2x.webp 2x"
+                                            media="(min-width: 1200px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project5-desktop.jpg 1x, ./images/portfolio/project5-desktop@2x.jpg 2x"
+                                            media="(min-width: 1200px)">
+                                        <source
+                                            srcset="./images/portfolio/project5-tablet.webp 1x, ./images/portfolio/project5-tablet@2x.webp 2x"
+                                            media="(min-width: 768px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project5-tablet.jpg 1x, ./images/portfolio/project5-tablet@2x.jpg 2x"
+                                            media="(min-width: 768px)">
+                                        <source
+                                            srcset="./images/portfolio/project5-mobile.webp 1x, ./images/portfolio/project5-mobile@2x.webp 2x"
+                                            media="(min-width: 480px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project5-mobile.jpg 1x, ./images/portfolio/project5-mobile@2x.jpg 2x"
+                                            media="(min-width: 480px)">
+                                    <img src="./images/portfolio/project5-mobile.jpg" alt="пример веб-сайта">
+                                    </picture>
                                     <p class="overlay">Проект Boxes</p>
                                 </div>
                                 <div class="portfolio-item-wrapper"> 
@@ -153,7 +255,27 @@
                         <a class="portfolio-item-link" href="#">
                             <article class="portfolio-item-card">
                                 <div class="portfolio-item-card-thumb">
-                                    <img src="./images/portfolio/project6.jpg" alt="пример веб-сайта" width="370" height="294">
+                                    <picture class="portfolio-picture">
+                                        <source
+                                            srcset="./images/portfolio/project6-desktop.webp 1x, ./images/portfolio/project6-desktop@2x.webp 2x"
+                                            media="(min-width: 1200px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project6-desktop.jpg 1x, ./images/portfolio/project6-desktop@2x.jpg 2x"
+                                            media="(min-width: 1200px)">
+                                        <source
+                                            srcset="./images/portfolio/project6-tablet.webp 1x, ./images/portfolio/project6-tablet@2x.webp 2x"
+                                            media="(min-width: 768px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project6-tablet.jpg 1x, ./images/portfolio/project6-tablet@2x.jpg 2x"
+                                            media="(min-width: 768px)">
+                                        <source
+                                            srcset="./images/portfolio/project6-mobile.webp 1x, ./images/portfolio/project6-mobile@2x.webp 2x"
+                                            media="(min-width: 480px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project6-mobile.jpg 1x, ./images/portfolio/project6-mobile@2x.jpg 2x"
+                                            media="(min-width: 480px)">
+                                    <img src="./images/portfolio/project6-mobile.jpg" alt="пример веб-сайта">
+                                    </picture>
                                     <p class="overlay">Inspiration has no Borders</p>
                                 </div>
                                 <div class="portfolio-item-wrapper"> 
@@ -168,7 +290,27 @@
                         <a class="portfolio-item-link" href="#">
                             <article class="portfolio-item-card">
                                 <div class="portfolio-item-card-thumb">
-                                    <img src="./images/portfolio/project7.jpg" alt="пример веб-сайта" width="370" height="294">
+                                    <picture class="portfolio-picture">
+                                        <source
+                                            srcset="./images/portfolio/project7-desktop.webp 1x, ./images/portfolio/project7-desktop@2x.webp 2x"
+                                            media="(min-width: 1200px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project7-desktop.jpg 1x, ./images/portfolio/project7-desktop@2x.jpg 2x"
+                                            media="(min-width: 1200px)">
+                                        <source
+                                            srcset="./images/portfolio/project7-tablet.webp 1x, ./images/portfolio/project7-tablet@2x.webp 2x"
+                                            media="(min-width: 768px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project7-tablet.jpg 1x, ./images/portfolio/project7-tablet@2x.jpg 2x"
+                                            media="(min-width: 768px)">
+                                        <source
+                                            srcset="./images/portfolio/project7-mobile.webp 1x, ./images/portfolio/project7-mobile@2x.webp 2x"
+                                            media="(min-width: 480px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project7-mobile.jpg 1x, ./images/portfolio/project7-mobile@2x.jpg 2x"
+                                            media="(min-width: 480px)">
+                                    <img src="./images/portfolio/project7-mobile.jpg" alt="пример веб-сайта">
+                                    </picture>
                                     <p class="overlay">Издание Limited Edition</p>
                                 </div>
                                 <div class="portfolio-item-wrapper"> 
@@ -183,7 +325,27 @@
                         <a class="portfolio-item-link" href="#">
                             <article class="portfolio-item-card">
                                 <div class="portfolio-item-card-thumb">
-                                    <img src="./images/portfolio/project8.jpg" alt="пример веб-сайта" width="370" height="294">
+                                    <picture class="portfolio-picture">
+                                        <source
+                                            srcset="./images/portfolio/project8-desktop.webp 1x, ./images/portfolio/project8-desktop@2x.webp 2x"
+                                            media="(min-width: 1200px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project8-desktop.jpg 1x, ./images/portfolio/project8-desktop@2x.jpg 2x"
+                                            media="(min-width: 1200px)">
+                                        <source
+                                            srcset="./images/portfolio/project8-tablet.webp 1x, ./images/portfolio/project8-tablet@2x.webp 2x"
+                                            media="(min-width: 768px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project8-tablet.jpg 1x, ./images/portfolio/project8-tablet@2x.jpg 2x"
+                                            media="(min-width: 768px)">
+                                        <source
+                                            srcset="./images/portfolio/project8-mobile.webp 1x, ./images/portfolio/project8-mobile@2x.webp 2x"
+                                            media="(min-width: 480px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project8-mobile.jpg 1x, ./images/portfolio/project8-mobile@2x.jpg 2x"
+                                            media="(min-width: 480px)">
+                                    <img src="./images/portfolio/project8-mobile.jpg" alt="пример веб-сайта">
+                                    </picture>
                                     <p class="overlay">Проект LAB</p>
                                 </div>
                                 <div class="portfolio-item-wrapper"> 
@@ -198,7 +360,27 @@
                         <a class="portfolio-item-link" href="#">
                             <article class="portfolio-item-card">
                                 <div class="portfolio-item-card-thumb">
-                                    <img src="./images/portfolio/project9.jpg" alt="пример веб-сайта" width="370" height="294">
+                                    <picture class="portfolio-picture">
+                                        <source
+                                            srcset="./images/portfolio/project9-desktop.webp 1x, ./images/portfolio/project9-desktop@2x.webp 2x"
+                                            media="(min-width: 1200px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project9-desktop.jpg 1x, ./images/portfolio/project9-desktop@2x.jpg 2x"
+                                            media="(min-width: 1200px)">
+                                        <source
+                                            srcset="./images/portfolio/project9-tablet.webp 1x, ./images/portfolio/project9-tablet@2x.webp 2x"
+                                            media="(min-width: 768px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project9-tablet.jpg 1x, ./images/portfolio/project9-tablet@2x.jpg 2x"
+                                            media="(min-width: 768px)">
+                                        <source
+                                            srcset="./images/portfolio/project9-mobile.webp 1x, ./images/portfolio/project9-mobile@2x.webp 2x"
+                                            media="(min-width: 480px)" type="image/webp">
+                                        <source
+                                            srcset="./images/portfolio/project9-mobile.jpg 1x, ./images/portfolio/project9-mobile@2x.jpg 2x"
+                                            media="(min-width: 480px)">
+                                    <img src="./images/portfolio/project9-mobile.jpg" alt="пример веб-сайта">
+                                    </picture>
                                     <p class="overlay">Growing Business</p>
                                 </div>
                                 <div class="portfolio-item-wrapper"> 
@@ -212,6 +394,7 @@
             </div>
         </section>
     </main>
+    <!--
     <footer class="footer">
         <div class="container">
             <div class="left-side">
@@ -262,8 +445,9 @@
                         </a>    
                     </li>
                 </ul>
-            </div> 
+            </div> -->
                 <!--subscribe form-->
+                <!--
             <div class="subscribe-form-wrapper"> 
                 <p class="footer-text">Подпишитесь на рассылку</p>
                     <form class="subscribe-form">
@@ -278,5 +462,6 @@
             </div>
         </div>
     </footer>
+-->
 </body>
 </html>
