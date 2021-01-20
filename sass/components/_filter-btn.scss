@@ -5,6 +5,16 @@
 }
 
 .filter-btn{
+    &:nth-child(-n+3){
+        margin-bottom: 15px;
+    }
+
+    &:not(:nth-child(3n)){
+        margin-right: 8px;
+    }
+}
+
+.filter-btn{
     padding: 6px 20px;
     height: 38px;
 
@@ -27,30 +37,26 @@
     color: #FFFFFF;
     background-color: var(--accent-color);
     } 
-}
 
-.all{
-    min-width: 73px;
+    .all{
+        min-width: 73px;
+        }
+        
+    .web-sites{
+        min-width: 128px;
+    }
+        
+    .apps{
+        min-width: 145px;
     }
     
-.web-sites{
-    min-width: 128px;
-}
+    .design{
+        min-width: 103px;
+    }
     
-.apps{
-    min-width: 145px;
-}
-
-.design{
-    min-width: 103px;
-}
-
-.marketing{
-    min-width: 130px;
-}
-
-.filter-item:not(:last-child){
-    margin-right: 8px;
+    .marketing{
+        min-width: 130px;
+    }
 }
 
 

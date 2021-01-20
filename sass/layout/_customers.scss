@@ -1,19 +1,21 @@
 .customers-list{
     display: flex;
     flex-wrap: wrap;
+    margin-top: calc(-1 * var(--portfolio-set-gap));
+    margin-left: calc(-1 * var(--portfolio-set-gap));
 }
 
 .customers-list-item{
     display: flex;
-    margin-bottom: 30px;
-
-    &:not(:nth-child(2n)){
-        margin-right: 30px;
-    }
+    margin-left: var(--portfolio-set-gap);
+    margin-top: var(--portfolio-set-gap);
 }
 
 .customers-list-link{
-    width: 226px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
     height: 90px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -37,5 +39,18 @@
 }
 
 @media screen and (min-width: 768px){
-    
+    .customers-list-link{
+        width: 226px;
+    } 
+}
+
+@media screen and (min-width: 1200px){
+    .customers-list{
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .customers-list-link{
+        width: 170px;
+    } 
 }

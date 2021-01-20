@@ -47,22 +47,18 @@
         &-members{
             display: flex;
             flex-wrap: wrap;
+            margin-top: calc(-1 * var(--portfolio-set-gap));
+            margin-left: calc(-1 * var(--portfolio-set-gap));
         }
     }
 
     .team-member{
         max-width: 354px;
-
-        &:not(:nth-child(2n)){
-            margin-right: 30px;
-        }
+        margin-left: var(--portfolio-set-gap);
+        margin-top: var(--portfolio-set-gap);
 
         &:not(:last-child){
             margin-bottom: 0;
-        }
-
-        &:nth-child(-n+2){
-            margin-bottom: 30px;
         }
     }
 
@@ -89,26 +85,9 @@
 
     .team-member{
         max-width: 270px;
-       
-        &:nth-child(-n+2){
-            margin-bottom: 0;
-        }
-
-        &:not(:nth-child(2n)){
-            margin-right: 0;
-        }
-
-        &-name{
-            line-height: 1.167;
-        }
-
-        &-position{
-            line-height: 1.167;
-        }
     }
 
     .team-member-wrapper{
         padding: 30px 32px;
     }
 }
-
