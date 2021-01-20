@@ -122,14 +122,14 @@ button {
   color: var(--accent-color);
 }
 
-.filter-list {
+*.filter-list {
   display: flex;
-  justify-content: center;
   margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 .filter-btn {
-  padding: 6px 22px;
+  padding: 6px 20px;
   height: 38px;
   font-family: var(--main-font);
   font-weight: 500;
@@ -149,20 +149,37 @@ button {
   background-color: var(--accent-color);
 }
 
-.filter-btn .all {
+.all {
   min-width: 73px;
 }
 
-.filter-btn .web-sites {
+.web-sites {
   min-width: 128px;
 }
 
-.filter-btn .apps {
+.apps {
   min-width: 145px;
+}
+
+.design {
+  min-width: 103px;
+}
+
+.marketing {
+  min-width: 130px;
 }
 
 .filter-item:not(:last-child) {
   margin-right: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex: no-wrap;
+  }
 }
 
 .modal-btn {
