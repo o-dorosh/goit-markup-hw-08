@@ -8,9 +8,6 @@
     background-color: rgba(0, 0, 0, 0.2);
 
     transition: all 500ms linear;
-
-    padding: 15px 93px 15px 94px;
-    overflow-y: scroll;
 }
 
 .modal{
@@ -18,8 +15,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 450px;
-    min-height: 609px;
+    width: 528px;
+    min-height: 581px;
     padding: 40px;
 
     background-color: #FFF;
@@ -68,11 +65,10 @@
 
 .modal-form-name{
     margin-bottom: 12px;
-    min-height: 60px;
 
     font-weight: 700;
     font-size: 20px;
-    line-height: 1,5;
+    line-height: 1,15;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -157,7 +153,7 @@
     width: 200px;
     margin: 0 auto;
 
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 
@@ -167,8 +163,8 @@
     justify-content: center;
     text-align: center;
     font-weight: 400px;
-    font-size: 12px;
-    line-height: 1.167;
+    font-size: 14px;
+    line-height: 1.714;
     
     letter-spacing: 0.03em;
     
@@ -197,31 +193,4 @@
 
 .modal-form-policy-text-link{
     color: var(--accent-color);
-}
-
-@media screen and (min-width: 768px){
-    .backdrop{
-        padding: 208px 159px 208px 159px;
-    }
-
-    .modal-form-policy-text{
-        font-size: 14px;
-        line-height: 1.714;
-    } 
-}
-
-@media screen and (min-width: 1200px){
-    .backdrop{
-        padding: 0;
-    }
-
-    .modal{
-        width: 528px;
-        min-height: 581px;
-    }
-
-    .modal-form-name{
-        min-height: 23px;
-        line-height: 1,15;
-    }
 }

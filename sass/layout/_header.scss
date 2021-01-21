@@ -4,6 +4,7 @@
 }
 
 .header{
+    position: relative;
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -108,4 +109,13 @@
 
     background-color: var(--accent-color);
     border-radius: 2px;
+}
+
+.menu-conteiner{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 40px;
 }

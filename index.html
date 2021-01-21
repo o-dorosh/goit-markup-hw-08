@@ -10,43 +10,57 @@
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    <!--<header class="header ">
+    <!--
+    <header class="header ">
         <div class="container">
             <nav class="navigation">
                 <a class="logo logo-light-theme" href="#"><span class="logo-accent">Web</span>Studio</a>
-                <ul class="navigation-list list">
-                    <li class="navigation-item">
-                        <a class="navigation-link current" href="index.html">Студия</a>
-                    </li>
-                    <li class="navigation-item">
-                        <a class="navigation-link" href="portfolio.html">Портфолио</a>
-                    </li>
-                    <li class="navigation-item">
-                        <a class="navigation-link" href="#">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-            <address class="address">
-                <ul class="address-list list">
-                    <li class="address-item">
-                        <a class="address-link" href="mailto:info@devstudio.com">
-                            <svg class="adress-icon" width="16" height="12">
-                                <use href="./images/sprite.svg#envelope"></use>
-                            </svg>
-                            <span>info@devstudio.com</span>
-                        </a>
-                    </li>
-                    <li class="address-item">
-                        <a class="address-link" href="tel:+380961111111">
-                            <svg class="adress-icon" width="10px" height="16px">
-                                <use href="./images/sprite.svg#smartphone"></use>
-                            </svg>
-                            <span>+38 096 111 11 11</span></a>
-                    </li>
-                </ul>
-            </address>
+            <button class="menu-button is-open" aria-expanded="false"
+            data-menu-button>
+                <svg width="40" height="40"
+                aria-label="Переключатель мобильного меню"
+                aria-controls="menu-container">
+                    <use class="icon-cross" href="./images/sprite.svg#header-close" ></use>
+                    <use class="icon-menu" href="./images/sprite.svg#header-menu" ></use>
+                </svg>
+            </button>
+            <div class="menu-container" id="menu-container" data-menu>
+                Rhyn
+            </div>
+            <ul class="navigation-list list">
+                <li class="navigation-item">
+                    <a class="navigation-link current" href="index.html">Студия</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="portfolio.html">Портфолио</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <address class="address">
+            <ul class="address-list list">
+                <li class="address-item">
+                    <a class="address-link" href="mailto:info@devstudio.com">
+                        <svg class="adress-icon" width="16" height="12">
+                            <use href="./images/sprite.svg#envelope"></use>
+                        </svg>
+                        <span>info@devstudio.com</span>
+                    </a>
+                </li>
+                <li class="address-item">
+                    <a class="address-link" href="tel:+380961111111">
+                        <svg class="adress-icon" width="10px" height="16px">
+                            <use href="./images/sprite.svg#smartphone"></use>
+                        </svg>
+                        <span>+38 096 111 11 11</span></a>
+                </li>
+            </ul>
+        </address>
         </div>    
-    </header>-->
+    </header>
+    ->
     <main>
 
         <!--HERO-->
@@ -420,35 +434,35 @@
                         </a>
                     </li>
                     <li class="customers-list-item">
-                        <a class="customers-list-link">
+                        <a class="customers-list-link" href="#">
                             <svg class="customers-list-icon" width="40" height="52">
                                 <use href="./images/sprite.svg#logo-2"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="customers-list-item">
-                        <a class="customers-list-link">
+                        <a class="customers-list-link" href="#">
                             <svg class="customers-list-icon" width="41" height="42.6">
                                 <use href="./images/sprite.svg#logo-3"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="customers-list-item">
-                        <a class="customers-list-link">
+                        <a class="customers-list-link" href="#">
                             <svg class="customers-list-icon" width="79.66" height="42.02">
                                 <use href="./images/sprite.svg#logo-4"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="customers-list-item">
-                        <a class="customers-list-link">
+                        <a class="customers-list-link" href="#">
                             <svg class="customers-list-icon" width="59" height="47">
                                 <use href="./images/sprite.svg#logo-5"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="customers-list-item">
-                        <a class="customers-list-link">
+                        <a class="customers-list-link" href="#">
                             <svg class="customers-list-icon" width="
                             88.48" height="45.44">
                                 <use href="./images/sprite.svg#logo-6"></use>
@@ -463,6 +477,7 @@
 
     <footer class="footer">
         <div class="container">
+            <div class="sides-wrapper"> 
             <div class="left-side">
                 <a class="logo logo-dark-theme" href="#"><span class="logo-accent">Web</span>Studio</a>
                 <address class="footer-address">
@@ -481,6 +496,7 @@
             </div>
            <div class="right-side">
                 <p class="footer-text">Присоединяйтесь</p>
+                
                 <ul class="social-list list">
                     <li class="social-list-item">
                         <a class="social-list-link" href="#" target="_blank">
@@ -512,7 +528,8 @@
                     </li>
                 </ul>
             </div> 
-
+            </div>
+        
                 <!--subscribe form-->
 
             <div class="subscribe-form-wrapper"> 
@@ -529,7 +546,7 @@
             </div>
         </div>
     </footer>
-<!--
+
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="close-btn" data-modal-close>
@@ -574,6 +591,9 @@
     </div>
 
     <script src="./js/modal.js"></script>
--->
+    <!--
+    <script src="./js/menu.js"></script>
+    -->
+
 </body>
 </html>
