@@ -19,53 +19,63 @@
                 <svg width="40" height="40"
                 aria-label="Переключатель мобильного меню"
                 aria-controls="menu-container">
-                    <use class="icon-cross" href="./images/sprite.svg#header-close" ></use>
+
                     <use class="icon-menu" href="./images/sprite.svg#header-menu" ></use>
                 </svg>
             </button>
-            <div class="menu-container" id="menu-container" data-menu>
-                <nav class="navigation">
-                <ul class="navigation-list list">
-                    <li class="navigation-item">
-                        <a class="navigation-link current" href="index.html">Студия</a>
-                    </li>
-                    <li class="navigation-item">
-                        <a class="navigation-link" href="portfolio.html">Портфолио</a>
-                    </li>
-                    <li class="navigation-item">
-                        <a class="navigation-link" href="#">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-            <address class="address">
-                <ul class="address-list list">
-                    <li class="address-item">
-                        <a class="address-link" href="mailto:info@devstudio.com">
-                           <svg class="adress-icon" width="16" height="12">
-                                <use href="./images/sprite.svg#envelope"></use>
-                            </svg>
-                            <span class="email">info@devstudio.com</span>
-                        </a>
-                    </li>
-                    <li class="address-item">
-                        <a class="address-link" href="tel:+380961111111">
-                           <svg class="adress-icon" width="10px" height="16px">
-                                <use href="./images/sprite.svg#smartphone"></use>
-                            </svg>
-                            <span class="tel">+38 096 111 11 11</span></a>
-                    </li>
-                </ul>
-            </address>
-            <div class="social-media">
-                <ul class="social-media-list list">
-                    <li class="social-media-item"><a class="social-media-link" href="#">Instagram</a></li>
-                    <li class="social-media-item"><a class="social-media-link" href="#">Twitter</a></li>
-                    <li class="social-media-item"><a class="social-media-link" href="#">Facebook</a></li>
-                    <li class="social-media-item"><a class="social-media-link" href="#">LinkedIn</a></li>
-                </ul>
+            <div class="menu-overlay" data-menu>
+                <div class="menu-container" id="menu-container" >
+                    <button type="button" class="menu-close-btn is-open" aria-expanded="false"
+                    data-menu-button>
+                        <svg width="40" height="40"
+                aria-label="Переключатель мобильного меню"
+                aria-controls="menu-container">
+                    <use class="icon-cross" href="./images/sprite.svg#header-close" ></use>
+                </svg>
+                    </button>
+                    <nav class="navigation">
+                    <ul class="navigation-list list">
+                        <li class="navigation-item">
+                            <a class="navigation-link current" href="index.html">Студия</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a class="navigation-link" href="portfolio.html">Портфолио</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a class="navigation-link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <address class="address">
+                    <ul class="address-list list">
+                        <li class="address-item">
+                            <a class="address-link" href="mailto:info@devstudio.com">
+                            <svg class="adress-icon" width="16" height="12">
+                                    <use href="./images/sprite.svg#envelope"></use>
+                                </svg>
+                                <span class="email">info@devstudio.com</span>
+                            </a>
+                        </li>
+                        <li class="address-item">
+                            <a class="address-link" href="tel:+380961111111">
+                            <svg class="adress-icon" width="10px" height="16px">
+                                    <use href="./images/sprite.svg#smartphone"></use>
+                                </svg>
+                                <span class="tel">+38 096 111 11 11</span></a>
+                        </li>
+                    </ul>
+                </address>
+                <div class="social-media">
+                    <ul class="social-media-list list">
+                        <li class="social-media-item"><a class="social-media-link" href="#">Instagram</a></li>
+                        <li class="social-media-item"><a class="social-media-link" href="#">Twitter</a></li>
+                        <li class="social-media-item"><a class="social-media-link" href="#">Facebook</a></li>
+                        <li class="social-media-item"><a class="social-media-link" href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
             </div>
-            </div>
-        </div>    
+        </div>   
+    </div> 
     </header>
     
     <main>
