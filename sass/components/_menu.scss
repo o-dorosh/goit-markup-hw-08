@@ -72,7 +72,15 @@
     .menu-container{
         display: flex;
         align-items: center;
+        justify-content: space-between;
         flex-wrap: wrap;
         padding: 0;
+        min-width: 515px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .menu-container{
+        min-width: 932px;
     }
 }
