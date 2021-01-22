@@ -16,21 +16,9 @@
     &.is-open .icon-cross{
         display: none;
     }
-}
 
-.icon-cross{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover,
-    &:focus{
-        fill: var(--accent-color);
-    }
-}
-
-
-.icon-menu{
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    
     &:hover,
     &:focus{
         fill: var(--accent-color);
@@ -98,6 +86,25 @@
         background-color: #FFFFFF;
         box-sizing: border-box;
         cursor: pointer;
+
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+        &:hover,
+        &:focus{
+            fill: var(--accent-color);
+        }
+
+        .icon-menu{
+            display: block;
+        }
+    
+        &.is-open .icon-menu{
+            display: none;
+        }
+        
+        &.is-open .icon-cross{
+            display: block;
+        }
     }
 
 }
@@ -110,6 +117,10 @@
         flex-wrap: wrap;
         padding: 0;
         min-width: 515px;
+    }
+
+    .menu-close-btn{
+        display: none;
     }
 }
 

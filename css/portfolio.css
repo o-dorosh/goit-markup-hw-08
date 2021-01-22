@@ -313,6 +313,7 @@ button {
   padding: 0;
   border: none;
   background-color: transparent;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-button .icon-menu {
@@ -327,19 +328,7 @@ button {
   display: none;
 }
 
-.icon-cross {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.icon-cross:hover, .icon-cross:focus {
-  fill: var(--accent-color);
-}
-
-.icon-menu {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.icon-menu:hover, .icon-menu:focus {
+.menu-button:hover, .menu-button:focus {
   fill: var(--accent-color);
 }
 
@@ -393,6 +382,19 @@ button {
     background-color: #FFFFFF;
     box-sizing: border-box;
     cursor: pointer;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .menu-close-btn:hover, .menu-close-btn:focus {
+    fill: var(--accent-color);
+  }
+  .menu-close-btn .icon-menu {
+    display: block;
+  }
+  .menu-close-btn.is-open .icon-menu {
+    display: none;
+  }
+  .menu-close-btn.is-open .icon-cross {
+    display: block;
   }
 }
 
@@ -404,6 +406,9 @@ button {
     flex-wrap: wrap;
     padding: 0;
     min-width: 515px;
+  }
+  .menu-close-btn {
+    display: none;
   }
 }
 
