@@ -996,7 +996,6 @@ button {
 }
 
 .team-member-wrapper {
-  padding: 30px 122px 24px 122px;
   background-color: #FFFFFF;
 }
 
@@ -1247,6 +1246,13 @@ button {
   }
   .footer .modal-btn {
     margin-left: 12px;
+  }
+  .footer-text {
+    text-align: left;
+  }
+  .sides-wrapper {
+    display: flex;
+    align-items: baseline;
   }
 }
 /*# sourceMappingURL=main.css.map */

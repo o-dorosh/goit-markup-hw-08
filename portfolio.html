@@ -19,27 +19,19 @@
                 <svg width="40" height="40"
                 aria-label="Переключатель мобильного меню"
                 aria-controls="menu-container">
-
+                <use class="icon-cross" href="./images/sprite.svg#header-close" ></use>
                     <use class="icon-menu" href="./images/sprite.svg#header-menu" ></use>
                 </svg>
             </button>
             <div class="menu-overlay" data-menu>
                 <div class="menu-container" id="menu-container" >
-                    <button type="button" class="menu-close-btn is-open" aria-expanded="false"
-                    data-menu-button>
-                        <svg width="40" height="40"
-                aria-label="Переключатель мобильного меню"
-                aria-controls="menu-container">
-                    <use class="icon-cross" href="./images/sprite.svg#header-close" ></use>
-                </svg>
-                    </button>
                     <nav class="navigation">
                     <ul class="navigation-list list">
                         <li class="navigation-item">
-                            <a class="navigation-link" href="index.html">Студия</a>
+                            <a class="navigation-link current" href="index.html">Студия</a>
                         </li>
                         <li class="navigation-item">
-                            <a class="navigation-link current" href="portfolio.html">Портфолио</a>
+                            <a class="navigation-link" href="portfolio.html">Портфолио</a>
                         </li>
                         <li class="navigation-item">
                             <a class="navigation-link" href="#">Контакты</a>
@@ -426,6 +418,7 @@
     
     <footer class="footer">
         <div class="container">
+            <div class="sides-wrapper"> 
             <div class="left-side">
                 <a class="logo logo-dark-theme" href="#"><span class="logo-accent">Web</span>Studio</a>
                 <address class="footer-address">
@@ -444,6 +437,7 @@
             </div>
            <div class="right-side">
                 <p class="footer-text">Присоединяйтесь</p>
+                
                 <ul class="social-list list">
                     <li class="social-list-item">
                         <a class="social-list-link" href="#" target="_blank">
@@ -475,8 +469,10 @@
                     </li>
                 </ul>
             </div> 
+            </div>
+        
                 <!--subscribe form-->
-                
+
             <div class="subscribe-form-wrapper"> 
                 <p class="footer-text">Подпишитесь на рассылку</p>
                     <form class="subscribe-form">

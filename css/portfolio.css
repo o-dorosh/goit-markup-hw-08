@@ -890,5 +890,12 @@ button {
   .footer .modal-btn {
     margin-left: 12px;
   }
+  .footer-text {
+    text-align: left;
+  }
+  .sides-wrapper {
+    display: flex;
+    align-items: baseline;
+  }
 }
 /*# sourceMappingURL=portfolio.css.map */
