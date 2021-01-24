@@ -23,6 +23,7 @@
         line-height: 1.188;
         letter-spacing: 0.03em; 
         text-align: center;
+
     }
 
     &-position{
@@ -35,8 +36,17 @@
     }
 }
 
+.team-member-wrapper .social-list{
+    display: flex;
+    justify-content: center;
+
+    &:not(:last-child){
+        margin-right: 10px;
+    }
+}
+
 .team-member-wrapper{
-    padding: 30px 122px 24px 122px;
+    padding: 30px 10px 24px 10px;
     background-color: #FFFFFF;
 }
 
@@ -63,7 +73,7 @@
     }
 
     .team-member-wrapper{
-        padding: 30px 74px 24px 74px;
+        padding: 30px 10px 24px 10px;
     }
 }
 
@@ -87,6 +97,6 @@
     }
 
     .team-member-wrapper{
-        padding: 30px 32px;
+        padding: 30px 10px;
     }
 }

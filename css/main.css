@@ -968,8 +968,17 @@ button {
   color: var(--secondary-color);
 }
 
+.team-member-wrapper .social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-member-wrapper .social-list:not(:last-child) {
+  margin-right: 10px;
+}
+
 .team-member-wrapper {
-  padding: 30px 122px 24px 122px;
+  padding: 30px 10px 24px 10px;
   background-color: #FFFFFF;
 }
 
@@ -992,7 +1001,7 @@ button {
     margin-bottom: 0;
   }
   .team-member-wrapper {
-    padding: 30px 74px 24px 74px;
+    padding: 30px 10px 24px 10px;
   }
 }
 
@@ -1013,7 +1022,7 @@ button {
     max-width: 270px;
   }
   .team-member-wrapper {
-    padding: 30px 32px;
+    padding: 30px 10px;
   }
 }
 
